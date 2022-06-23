@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Прикладные информационные технологии</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <style>
+            main > .container {
+                padding: 60px 15px;
+            }
+            hr {
+                margin: 30px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <span class="navbar-brand">Прикладные информационные технологии</span>
+            </div>
+        </nav>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>Установка Nginx и получение HTTPS-сертификата Let's Encrypt</h4>
+                        <p>Сертификат получен с помощью certbot по стратегии ACME + Nginx Mode.</p>
+                        <p>Ссылка на скринкаст: <a href="https://drive.google.com/file/d/19BRm3f1bwoHQuRum1kLgET5A7k-ZCdDw/view?usp=sharing">Google Drive</a></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Установка Docker и запуск статического сайта</h4>
+                        <p>В ходе работы был запущен веб-сервер Apache.</p>
+                        <p>Ссылка на скринкаст: <a href="https://drive.google.com/file/d/19fqg8jyJx-v4szlXEsVJLm3U94mO6bgv/view?usp=sharing">Google Drive</a></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Docker Build & Push & Run</h4>
+                        <p>Образ создан на основе alpine:3.16.0.</p>
+                        <p>Страница на Docker Hub: <a href="https://hub.docker.com/r/balrundev/nginx-static-test">balrundev/nginx-static-test</a></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Запуск нескольких экземпляров веб-приложения с помощью Docker Compose</h4>
+                        <p>Приложение написано на языке Go.</p>
+                        <p>Ссылка на скринкаст: <a href="https://drive.google.com/file/d/1Pq-Mtf4IaoCAxOoTiQmJrMG0dHi5d3kQ/view?usp=sharing">Google Drive</a></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Let's Encrypt & Nginx Proxy</h4>
+                        <p>Получение сертификатов обеспечивает <a href="https://github.com/nginx-proxy/acme-companion">acme-companion</a>.</p>
+                        <p>Ссылка на docker-compose.yml: <a href="https://gist.github.com/balrundev/ea2b12682234fe4f3b2fd7d1fe4db68e">GitHub Gist</a></p>
+                        <div class="text-center">
+                            <img src="nginx-proxy.png" alt="">
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Настройка VPN</h4>
+                        <p>В ходе работы установлено соединение через VPN-сервер Wireguard.</p>
+                        <p>Ссылка на отчёт: <a href="https://drive.google.com/file/d/1MQ2VE3j7sWX3zcPCuGC4CVrJ-KkoPBjP/view?usp=sharing">Google Drive</a></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Список провайдеров OAuth</h4>
+                        <p>Ссылка на отчёт: <a href="https://gist.github.com/balrundev/6145812c6d196e96729119a038c4380c">GitHub Gist</a></p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h4>Реализация дополнительной стратегии OAuth 2.0</h4>
+                        <p>Добавлена стратегия входа через VK.</p>
+                        <p>Ссылка на репозиторий: <a href="https://github.com/balrundev/passportjs-oauth-task">GitHub</a></p>
+                        <p>Ссылка на скринкаст: <a href="https://drive.google.com/file/d/1lWQyn4r2qT1Uvr8s7W7LmAN9QtBSK1Ye/view?usp=sharing">Google Drive</a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer py-3 bg-light">
+            <div class="container">
+                <span>&copy; Мельников Федор, 2022</span>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
